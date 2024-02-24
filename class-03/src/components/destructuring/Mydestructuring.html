@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const laptopdell = {
+        brand: "Dell",
+        model: "core-m3",
+        type: "Laptop",
+        colour: "Black"
+        };
+        console.log(laptopdell) 
+
+        function mylaptop(laptop){
+        const {brand, model, type, colour} = laptop;
+        console.log(laptop.brand)
+
+         const message =
+           "My " + type + " is a " + color + " " + brand + " which is the modelno " + +model;
+
+         console.log(message);
+        }
+        mylaptop(laptopdell);
+
+        const arr = [Dell, Hp, Lenovo, Mackbook, Acer];
+
+        const [laptop1, laptop2, laptop3, laptop4, laptop5] = arr;
+
+        console.log(laptop1)
+
+        //We also use destructuring by let the element
+
+        let Mybike = "yammaha"
+        console.log("Bike",Mybike)
+
+    </script>
+</body>
+</html>
